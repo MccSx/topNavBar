@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.topNavBar {
+  padding: 20px 16px;
+}
+.topNavBar nav>ul {
+  margin: 0;
+  padding: 0;
+}
+.topNavBar nav>ul>li {
+  float: left;
+  list-style: none;
+  margin: 0 17px;
+  padding-top: 8px;
+}
+.topNavBar nav>ul>li>a {
+  font-size: 12px;
+  padding: 5px 0;
+  font-weight: bold;
+  color: #C2C3C5;
+  display: block;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+.topNavBar nav>ul>li>a:hover {
+  border-bottom: 3px solid #E35D64;
+}
+.logo {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Arial Black";
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
+.logo .rs {
+  color: #E35D64;
+  margin-right: 4px;
+}
+.logo .card {
+  color: #919499;
+}
+.topNavBar nav {
+  float: right;
+}
